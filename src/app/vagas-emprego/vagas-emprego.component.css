@@ -1,0 +1,117 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto;
+
+  padding: auto;
+  border-radius: 1.9em;
+  background-color: #bfc8d7;
+}
+
+
+form{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 90px;
+  margin-right: 90px;
+  display: grid;
+  border-radius: 1.5em;
+  width: 1320px;
+  box-sizing: Beira-box;
+}
+
+
+form {
+  border: 2px solid #ccc;
+  display: inline-block;
+  padding: 4px;
+}
+
+form > input {
+  border: none;
+  size: 500px;
+}
+
+form > button {
+  background-color: aquamarine;
+  border: none;
+  color: #000000;
+  padding: 4px 40px;
+  justify-self: end;
+  margin-left: 950px;
+  border-radius: 1.5em;
+
+}
+
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+
+.backendT{
+  background-color: rgb(32, 181, 40);
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 1.9em;
+  margin-left: 90px;
+  margin-right: 50px;
+}
+
+.titleJob{
+  text-align: center;
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+  border-radius: 0.6em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 90px;
+  margin-right: 90px;
+  background-color: forestgreen;
+}
+
+.linkTitle{
+  text-align: center;
+  margin-top: 10px;
+  font-variant: small-caps;
+}
+
+
+img{
+   max-width: 300px;
+  max-height: 300px;
+  border-radius: 1.9em;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  background-position: center;
+}
+
+
+.borderLink{
+  border: 0.2em;
+  border-style: solid;
+  border-color: #b8080891;
+  border-radius: 1.9em;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

@@ -7,6 +7,8 @@ import { IndexComponent } from './index/index.component';
 import { CursosComponent } from './cursos/cursos.component';
 import { FrontendComponent } from './frontend/frontend.component';
 import { BackendComponent } from './backend/backend.component';
+import { MobileComponent } from './mobile/mobile.component';
+import { VagasEmpregoComponent } from './vagas-emprego/vagas-emprego.component';
 
 const routes : Routes = [
   {path: 'login', component: LoginCompComponent},
@@ -14,7 +16,10 @@ const routes : Routes = [
   {path: 'index', component: IndexComponent},
   {path: 'cursos', component: CursosComponent},
   {path: 'frontend', component: FrontendComponent},
-  {path: 'backend', component: BackendComponent}
+  {path: 'backend', component: BackendComponent},
+  {path: 'mobile', component: MobileComponent},
+  {path:"*", redirectTo:"index"},
+  {path: "vagas" , component: VagasEmpregoComponent}
 ]
 
 @NgModule({

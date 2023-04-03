@@ -12,6 +12,9 @@ import { IndexComponent } from './index/index.component';
 import { CursosComponent } from './cursos/cursos.component';
 import { FrontendComponent } from './frontend/frontend.component';
 import { BackendComponent } from './backend/backend.component';
+import { MobileComponent } from './mobile/mobile.component';
+import { VagasEmpregoComponent } from './vagas-emprego/vagas-emprego.component';
+import { WebnarsComponent } from './webnars/webnars.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { BackendComponent } from './backend/backend.component';
     IndexComponent,
     CursosComponent,
     FrontendComponent,
-    BackendComponent
+    BackendComponent,
+    MobileComponent,
+    VagasEmpregoComponent,
+    WebnarsComponent
   ],
   imports: [
     BrowserModule,
