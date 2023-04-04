@@ -9,6 +9,8 @@ import { FrontendComponent } from './frontend/frontend.component';
 import { BackendComponent } from './backend/backend.component';
 import { MobileComponent } from './mobile/mobile.component';
 import { VagasEmpregoComponent } from './vagas-emprego/vagas-emprego.component';
+import { WebnarsComponent } from './webnars/webnars.component';
+import { PlanosComponent } from './planos/planos.component';
 
 const routes : Routes = [
   {path: 'login', component: LoginCompComponent},
@@ -19,7 +21,10 @@ const routes : Routes = [
   {path: 'backend', component: BackendComponent},
   {path: 'mobile', component: MobileComponent},
   {path:"*", redirectTo:"index"},
-  {path: "vagas" , component: VagasEmpregoComponent}
+  {path: "vagas" , component: VagasEmpregoComponent},
+  {path: 'webnars', component: WebnarsComponent},
+  {path:'planos' , component: PlanosComponent }
+
 ]
 
 @NgModule({

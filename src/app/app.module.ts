@@ -15,6 +15,7 @@ import { BackendComponent } from './backend/backend.component';
 import { MobileComponent } from './mobile/mobile.component';
 import { VagasEmpregoComponent } from './vagas-emprego/vagas-emprego.component';
 import { WebnarsComponent } from './webnars/webnars.component';
+import { PlanosComponent } from './planos/planos.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { WebnarsComponent } from './webnars/webnars.component';
     BackendComponent,
     MobileComponent,
     VagasEmpregoComponent,
-    WebnarsComponent
+    WebnarsComponent,
+    PlanosComponent
   ],
   imports: [
     BrowserModule,

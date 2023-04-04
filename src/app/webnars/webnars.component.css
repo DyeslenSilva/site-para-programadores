@@ -1,0 +1,89 @@
+.container{
+  display: grid;
+  padding: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 1.9em;
+  background-color: #bfc8d7;
+}
+
+.containerWebNars{
+  display: grid;
+  padding: auto;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 1.9em;
+  background-color: #bfc8d7;
+}
+
+
+.titleWebnar{
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+  background-color: antiquewhite;
+  color: #000;
+  border-radius: 1.5em;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+img{
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 1.9em;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  background-position: center;
+
+}
+
+
+.titleWebnarLink{
+  text-align: center;
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+  border-radius: 0.6em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.borderLink{
+  border: 0.2em;
+  border-style: solid;
+  border-color: #b8080891;
+  border-radius: 1.9em;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.TextWebNar{
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+  border-radius: 1.5em;
+  background-color: antiquewhite;
+  color:#000;
+  text-align: center;
+}
+
+
+input[type="email"]{
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 1.5em;
+}
+
+input[type="submit"]{
+  width:100% ;
+  border-radius: 1.5em;
+}
+
